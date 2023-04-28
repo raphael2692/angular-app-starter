@@ -1,0 +1,3 @@
+# https://italiancoders.it/dockerizzare-una-applicazione-angular/
+docker build -t angular-app .
+docker run -p 8081:80 angular-app
